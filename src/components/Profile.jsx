@@ -8,6 +8,7 @@ const Profile = () => {
                 <img src={avatar} alt="avatar" className="w-32 h-32 rounded-md border-zinc-200" />
                 </div>
         <h2 className='hello flex items-center justify-center text-4xl text-slate-300 font-semibold  mb-20'>Hey, User!</h2>
+        <h3 className='hello flex items-center justify-center text-4xl text-slate-300 font-semibold  mb-20'>Your score: 6880</h3>
     </div>
   )
 }
