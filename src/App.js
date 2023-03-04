@@ -1,5 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+<<<<<<< HEAD
 import { Participant, Profile, Wrong , Correct} from './components';
+=======
+import { Participant, Profile , Firsypage } from './components';
+>>>>>>> fe5ceb8a0ee102a612495db6d0ab2e48b5acd310
 import {Home,Creator,Game,Join,Instructions, GetReady, Login} from "./pages"
 function App() {
   return (
@@ -20,6 +24,7 @@ function App() {
         <Routes>
         <Route path="/login" element={<Login/>}/>
         <Route path="/creator" element={<Creator />} />
+        <Route path="/Firstpage" element={<Firstpage/>}/>
         </Routes>
      </Router>
     </div>
