@@ -51,3 +51,11 @@ body{
 .hello{
     margin-top:20px
 }
+
+.wrong-text{
+    margin-top: 50px;
+}
+
+.wrong-img{
+    margin-left: 100px;
+}
